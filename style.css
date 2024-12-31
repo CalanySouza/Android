@@ -7,10 +7,26 @@ body {
 main {
   background-color: white;
   width: auto;
-  height: 400px;
+  height: 600px;
   border-radius: 4px;
   box-shadow: 5px 5px 1.4px;
   text-align: center;
+}
+.cat {
+  background-color: #270ffa;
+  height: 200px;
+  width: 200px;
+  text-align: left;
+  padding: 40px;
+  margin: auto;
+  outline: groove 13px lightgray;
+  
+}
+p {
+  text-align: left;
+  font-family: "Cookie", serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 h1 {
   font-family: "Cookie", serif;
@@ -32,9 +48,11 @@ a {
   padding: 10px 10px;
   text-decoration: none;
   color: white;
+  border-radius: 4px;
+  margin: auto;
 }
 a::before {
-  content: ' ∠ ';
+  content: " ∠ ";
 }
 a:hover {
   background-color: #270ffa;
