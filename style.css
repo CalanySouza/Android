@@ -1,29 +1,4 @@
 @charset "UTF-8";
-
 body {
-  margin: 0px;
-background-color: rgb(144, 241, 144);
-}
-header{
-  background-image: linear-gradient( to top, rgb(13, 83, 11), rgb(181, 247, 170));
- text-align: center;
- color: white;
-}
-article {
-  background-color: white;
-  margin: 50px;
-  padding: 10px;
-}
-.video {
-  width: auto;
-}
-nav {
-  padding: 9px;
-  text-align: left;
-}
-nav > a {
-  text-decoration: none;
-  color: white;
-  padding: 5px;
-  font-weight: bold;
+  background-color: #c5edb6;
 }
